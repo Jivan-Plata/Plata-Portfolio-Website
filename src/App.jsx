@@ -1,8 +1,11 @@
 import React from 'react'
-import './App.css'
-import NavBar from './components/NavBar/NavBar'
-import Landing from './components/Landing/Landing'
-import Expertise from './components/Expertise/Expertise'
+import NavBar from './components/NavBar'
+import Landing from './components/Landing'
+import Expertise from './components/Expertise'
+import TechStack from './components/TechStack'
+import Projects from './components/Projects'
+import EducationExperience from './components/EducationExperience'
+import ContactMe from './components/ContactMe'
 
 export default function App() {
   return (
@@ -10,6 +13,10 @@ export default function App() {
       <NavBar />
       <Landing />
       <Expertise />
+      <TechStack />
+      <Projects />
+      <EducationExperience />
+      <ContactMe />
     </>
   )
 }

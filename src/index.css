@@ -1,15 +1,62 @@
-html, body, #root {
-  height: 100%;
+@import "tailwindcss";
+@import 'material-symbols/outlined.css';
+
+
+@theme {
+    --color-primary: #0F172A;
+    --color-textcolor: #F1F5F9;
+    --color-cards: #182A35;
+    --color-secondary: #A1F6FF;
+    --color-moon: #A7F6F6;
 }
 
+@keyframes levitate {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes wave {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  10%, 30% { transform: rotate(14deg); }
+  20%, 40% { transform: rotate(-8deg); }
+}
+
+.animate-wave {
+  display: inline-block;
+  animation: wave 2s infinite;
+  transform-origin: 70% 70%;
+}
+
+.glowing-moon {
+  animation: levitate 6s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.blinking-cursor {
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 body {
-  margin: 0;
-  min-height: 100vh;
-  background-image: url(./assets/Stars_Vector.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: #0f172a;
-  font-family: Poppins;
-  color: rgb(241, 245, 249);
+    min-height: 100vh;
+    background-image: url(./assets/Stars_Vector.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #0f172a;
+    font-family: Poppins;
+    color: rgb(241, 245, 249);
 }
