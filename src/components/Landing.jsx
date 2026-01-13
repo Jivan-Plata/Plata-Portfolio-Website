@@ -55,12 +55,14 @@ function Landing() {
 
       {/* Text Container */}
       <div className="text-center md:text-left text-textcolor px-6 max-w-xl space-y-5 w-full">
+
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-snug">
       Hi <span className="inline-block animate-wave">👋</span>,<br />
       I'm <span className="text-secondary drop-shadow-[0_0_12px_#A1F6FF]">Jivan</span>,<br />
       <span className="text-white max-sm:text-2xl pr-1 relative">
         {displayText}
         <span className="absolute right-0 top-0 h-full w-[2px] bg-white blinking-cursor"></span>
+        
       </span>
 
     </h1>

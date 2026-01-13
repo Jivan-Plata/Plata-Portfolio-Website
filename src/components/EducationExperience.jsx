@@ -1,11 +1,11 @@
 import dlsudLogo from '../assets/DLSU-D.png';
 import seapps from '../assets/Seapps.png';
-import Servscale from '../assets/Servscale.png'
-import Creotec from '../assets/Creotec.png'
+import servscale from '../assets/Servscale.png'
+import creotec from '../assets/Creotec.png'
 
 function EducationExperience() {
   return (
-    <section id="EducAndExpi" className="py-20 px-6 max-w-6xl mx-auto">
+    <section id="EducAndExpi" className="py-20 px-6 max-w-6xl mx-auto ">
 
       <h2 className="text-3xl sm:text-4xl font-bold text-textcolor mb-12 text-center ">
         Education & Experience
@@ -17,7 +17,7 @@ function EducationExperience() {
         <div className="bg-cards border border-[#2c3e50] rounded-xl shadow-lg p-6 flex gap-5 items-start self-start ">
 
           <div className="w-20 h-20 bg-[#1A2E3A] rounded-lg flex items-center justify-center shrink-0">
-            <img src={Servscale} alt="Company Logo" className="w-12 h-12 object-contain" />
+            <img src={servscale} alt="Company Logo" className="w-12 h-12 object-contain" />
           </div>
 
           <div className="text-textcolor space-y-1 ">
@@ -37,7 +37,7 @@ function EducationExperience() {
         <div className="bg-cards border border-[#2c3e50] rounded-xl shadow-lg p-6 flex gap-5 items-start self-start ">
 
           <div className="w-20 h-20 bg-[#1A2E3A] rounded-lg flex items-center justify-center shrink-0">
-            <img src={Creotec} alt="Company Logo" className="w-12 h-12 object-contain" />
+            <img src={creotec} alt="Company Logo" className="w-12 h-12 object-contain" />
           </div>
 
           <div className="text-textcolor space-y-1 ">

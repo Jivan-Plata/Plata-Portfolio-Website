@@ -11,7 +11,7 @@ import git from '../assets/GitHub.png'
 const projects = [
     {
         name: 'Arcane Beauty Lounge',
-        description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and deployed the site via GoDaddy',
+        description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and deployed via GoDaddy',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
         livePreview: 'https://youtu.be/67aP4tyoaqU',
@@ -45,11 +45,15 @@ const projects = [
 
 function Projects() {
     return (
-        <section id="Projects" className="py-24 px-6 sm:w-2xl md:w-3xl lg:w-5xl mx-auto">
+        <section id="Projects" className="py-20 px-6 sm:w-2xl md:w-3xl lg:w-5xl mx-auto ">
+            
             <h2 className="text-3xl sm:text-4xl font-bold text-center text-textcolor mb-10">Projects</h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-5 gap-y-6 place-items-center">
+            {/* Container */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-5 gap-y-6 place-items-center ">
+
                 {projects.map((project, index) => (
+                    /* Cards */
                     <div
                         key={index}
                         className="bg-cards rounded-xl w-72 h-[27rem] flex flex-col border border-[#2c3e50] hover:border-secondary shadow-[0_0_6px_#1a1a1a] hover:shadow-[0_0_16px_#A1F6FF] hover:-translate-y-2 ease-in-out transition-all duration-300 overflow-hidden"
@@ -68,6 +72,7 @@ function Projects() {
                                     {tech}
                                 </span>
                                 ))}
+                                
                             </div>
 
 

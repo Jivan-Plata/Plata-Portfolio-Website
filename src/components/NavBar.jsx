@@ -24,14 +24,14 @@ export default function NavBar() {
         <ul className="hidden xl:flex items-center gap-12 font-medium text-base">
 
           <li>
-            <a href="#Expertise" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
-              Expertise
+            <a href="#EducAndExpi" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
+              Education & Experience
             </a>
           </li>
 
           <li>
-            <a href="#TechStack" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
-              Tech Stack
+            <a href="#Certifications" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
+              Certifications
             </a>
           </li>
 
@@ -42,8 +42,8 @@ export default function NavBar() {
           </li>
 
           <li>
-            <a href="#EducAndExpi" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
-              Education & Experience
+            <a href="#TechStack" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">
+              Tech Stack
             </a>
           </li>
 
@@ -83,20 +83,22 @@ export default function NavBar() {
         {/* Menu Items */}
         <li>
           <a
-            href="#Expertise"
+            href="#EducAndExpi"
             className="p-3 block w-full text-center hover:underline hover:text-white transition-all"
           >
-            Expertise
+            Education & Experience
           </a>
         </li>
+
         <li>
           <a
-            href="#TechStack"
+            href="#Certifications"
             className="p-3 block w-full text-center hover:underline hover:text-white transition-all"
           >
-            Tech Stack
+            Certifications
           </a>
         </li>
+
         <li>
           <a
             href="#Projects"
@@ -105,14 +107,16 @@ export default function NavBar() {
             Projects
           </a>
         </li>
+
         <li>
           <a
-            href="#EducAndExpi"
+            href="#TechStack"
             className="p-3 block w-full text-center hover:underline hover:text-white transition-all"
           >
-            Education & Experience
+            Tech Stack
           </a>
         </li>
+
         <li>
           <a
             href="#Contacts"
@@ -121,6 +125,7 @@ export default function NavBar() {
             Contacts
           </a>
         </li>
+
       </ul>
 
     </nav>
