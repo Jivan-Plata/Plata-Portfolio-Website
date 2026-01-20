@@ -39,7 +39,7 @@ function Landing() {
   return (
     <section
       id="Landing"
-      className="flex flex-col md:flex-row items-center justify-between px-6 pt-14 sm:pt-24 lg:pt-28 xl:pt-32 pb-16 max-w-6xl gap-12 mx-auto"
+      className="flex flex-col md:flex-row items-center justify-between px-6 pt-14 sm:pt-24 lg:pt-28 xl:pt-32 pb-16 max-w-6xl gap-12 mx-auto "
     >
 
       {/* Moon Image */}

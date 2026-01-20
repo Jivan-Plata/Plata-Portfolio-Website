@@ -1,5 +1,4 @@
 import dlsudLogo from '../assets/DLSU-D.png';
-import seapps from '../assets/Seapps.png';
 import servscale from '../assets/Servscale.png'
 import creotec from '../assets/Creotec.png'
 
@@ -66,6 +65,7 @@ function EducationExperience() {
             <h3 className="text-lg font-bold text-white">B.S. in Computer Science with Specialization in Game Development</h3>
             <p className="text-sm text-slate-400">2021 – 2025</p>
             <p className="text-md font-medium text-white">De La Salle University – Dasmariñas</p>
+            <p className="text-md font-medium text-white">DOST-SEI Undergraduate Scholar (2021-2025)</p>
             <p className="text-sm font-medium text-slate-400">GPA: 3.65/4.00</p>
 
           </div>

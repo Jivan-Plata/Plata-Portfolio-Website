@@ -1,8 +1,4 @@
 import arcanePage from '../assets/arcanePage.png'
-import peered from '../assets/Peered_Icon.png'
-import gachagame from '../assets/GachaGame.png'
-import connect4 from '../assets/Connect4.png'
-import websitePortfolio  from '../assets/websitePortfolio.png'
 import portfolioPage from '../assets/portfolioPage.png'
 import git from '../assets/GitHub.png'
 
@@ -14,8 +10,8 @@ const projects = [
         description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and deployed via GoDaddy',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
-        livePreview: 'https://youtu.be/67aP4tyoaqU',
-        code: 'https://github.com/ajoshuauc/PEERED-DETECTING-AND-CATEGORIZING-PEER-PRESSURE-IN-SOCIAL-MEDIA-USING-MULTI-CLASS-CLASSIFICATION',
+        livePreview: 'https://arcanebeautylounge.netlify.app/',
+        code: 'https://github.com/Jivan-Plata/arcane-beauty-lounge-demo',
     },
     {
         name: 'Website Portfolio',
@@ -24,23 +20,7 @@ const projects = [
         technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
         livePreview: '#',
         code: 'https://github.com/ajoshuauc/Portfolio-Website',
-    },
-    {
-        name: 'Memory Online Multiverse',
-        description: 'A collaborative project where we created a gacha simulator inspired from Genshin Impact and Honkai Star Rail. Tools used were HTML, CSS, and JavaScript',
-        source: gachagame,
-        technologies: ['HTML', 'CSS', 'JavaScript'],
-        livePreview: 'https://ajoshuauc.github.io/Gacha-Website-Group-Work-/',
-        code: 'https://github.com/ajoshuauc/Gacha-Website-Group-Work-',
-    },
-    {
-        name: 'Online Connect4',
-        description: 'A web-based single-player Connect 4 game with an AI opponent using Minimax with Alpha-Beta Pruning. Features adjustable difficulty, strategic gameplay, and is deployed on Vercel for easy access.',
-        source: connect4,
-        technologies: ['ReactJS', 'TypeScript'],
-        livePreview: 'https://connect4aigameagent.vercel.app/',
-        code: 'https://github.com/ayk-anonymous/connect4aigameagent',
-    },
+    }
 ];
 
 function Projects() {
@@ -95,8 +75,5 @@ function Projects() {
         </section>
     );
 }
-
-
-
 
 export default Projects;

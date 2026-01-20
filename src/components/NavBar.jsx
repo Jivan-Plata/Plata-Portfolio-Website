@@ -5,10 +5,10 @@ export default function NavBar() {
 
 
   return (
-    <nav className="flex justify-between items-center sticky text-textcolor py-3 px-8 md:px-32 bg-primary drop-shadow-md top-0 z-10">
+    <nav className="flex justify-between items-center sticky text-textcolor py-3 px-8 md:px-32 bg-primary drop-shadow-md top-0 z-10 ">
 
       <a href="#">
-        <p className="font-extrabold text-secondary p-3">Jivan Plata</p>
+        <p className="font-extrabold text-secondary p-3 ">Jivan Plata</p>
       </a>
 
       <a
@@ -21,7 +21,7 @@ export default function NavBar() {
       </a>
 
       {/* Desktop Menu */}
-        <ul className="hidden xl:flex items-center gap-12 font-medium text-base">
+        <ul className="hidden xl:flex items-center gap-12 font-medium text-base ">
 
           <li>
             <a href="#EducAndExpi" className="p-3 block w-full text-center hover:underline hover:text-white rounded-md transition-all cursor-pointer">

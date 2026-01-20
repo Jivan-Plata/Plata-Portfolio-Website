@@ -6,19 +6,10 @@ import python from '../assets/Python.png'
 import java from '../assets/Java.png'
 import git from '../assets/GitHub.png'
 import react from '../assets/React.png'
-import nodejs from '../assets/Nodejs.png'
-import express from '../assets/express.png'
-import mongodb from '../assets/MongoDB.png'
-import postman from '../assets/postman.png'
-import postgres from '../assets/postgres.png'
-import tensorflow from '../assets/tensorflow-original.png'
-import numpy from '../assets/numpy.png'
-import pandas from '../assets/pandas.png'
-import scikitLearn from '../assets/scikit-learn.png'
 import netlify from '../assets/Netlify.png'
 import unity from '../assets/Unity.png'
-
-
+import tailwind from '../assets/Tailwind.png'
+import blender from '../assets/Blender.png'
 
 const techStack = [
 
@@ -29,8 +20,10 @@ const techStack = [
   {name: 'Java', source: java},
   {name: 'Git', source: git},
   {name: 'React', source: react},
+  {name: 'Tailwind', source: tailwind},
   {name: 'Netlify', source: netlify},
   {name: 'Unity', source: unity},
+  {name: 'Blender', source: blender}
 
 ];
 
