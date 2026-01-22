@@ -12,7 +12,7 @@ export default function NavBar() {
       </a>
 
       <a
-        href="https://drive.google.com/drive/folders/1RZZnGzu6ElpJEzHeV1dqkn1GNoK8hnla?usp=sharing"
+        href="https://drive.google.com/drive/folders/1yo3VL_cyr247pnq-TRYjvU0IAefZIv3C?usp=sharing"
         target="_blank"
         rel="noreferrer"
         className="md:hidden px-4 py-2 rounded-full bg-secondary text-primary text-[0.70rem] font-semibold hover:bg-[#a1f6ff] transition-all duration-300 shadow-md hover:shadow-[0_0_10px_#A1F6FF] flex items-center justify-center gap-2 whitespace-nowrap"

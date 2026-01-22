@@ -6,7 +6,7 @@ import cardWebsite from '../assets/card-website.png'
 const projects = [
     {
         name: 'Arcane Beauty Lounge',
-        description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
+        description: 'A promotional website created using HTML, CSS and JS. Implemented responsive layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
         livePreview: 'https://arcanebeautylounge.netlify.app/',

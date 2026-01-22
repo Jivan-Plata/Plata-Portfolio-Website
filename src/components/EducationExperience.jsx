@@ -26,7 +26,7 @@ function EducationExperience() {
             <p className="text-sm text-slate-400">July 2024 - August 2024</p>
             <p className="text-md font-medium text-white">Servscale Technologies, Inc.</p>
             <p className="text-sm text-slate-300 pt-2 leading-relaxed">
-            Developed a promotional website for Arcane Beauty Lounge requested by Arcane Beauty Official. Collaborated in a 3-member Agile development team, using Scrum practices such as daily stand-ups, sprints, sprint reviews and a Kanban board (Trello) to deliver incremental website features.
+            Developed a promotional website for an official business company in the Philippines: Arcane Beauty Lounge. Collaborated in a 3-member Agile development team with a scrum master, using Scrum practices such as daily stand-ups, sprints, sprint reviews and a Kanban board (Trello) to deliver incremental website features.
             </p>
             
           </div>

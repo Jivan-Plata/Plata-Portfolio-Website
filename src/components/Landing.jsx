@@ -80,7 +80,7 @@ function Landing() {
             Contacts
           </a>
           <a
-            href="https://drive.google.com/drive/folders/1RZZnGzu6ElpJEzHeV1dqkn1GNoK8hnla?usp=sharing"
+            href="https://drive.google.com/drive/folders/1yo3VL_cyr247pnq-TRYjvU0IAefZIv3C?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="px-3 py-1.5 sm:px-4 sm:py-2 text-center bg-secondary text-primary font-semibold rounded-md text-xs sm:text-sm md:text-base hover:brightness-110 transition whitespace-nowrap"
