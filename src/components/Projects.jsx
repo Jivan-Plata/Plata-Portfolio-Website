@@ -1,13 +1,12 @@
 import arcanePage from '../assets/arcanePage.png'
 import portfolioPage from '../assets/portfolioPage.png'
 import git from '../assets/GitHub.png'
-
-
+import cardWebsite from '../assets/card-website.png'
 
 const projects = [
     {
         name: 'Arcane Beauty Lounge',
-        description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and deployed via GoDaddy',
+        description: 'A promotional website created for Arcane Beauty Lounge. Implemented multi-section layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
         livePreview: 'https://arcanebeautylounge.netlify.app/',
@@ -19,7 +18,16 @@ const projects = [
         source: portfolioPage,
         technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
         livePreview: '#',
-        code: 'https://github.com/ajoshuauc/Portfolio-Website',
+        code: 'https://github.com/Jivan-Plata/Plata-Portfolio-Website',
+    },
+
+    {
+        name: 'Personal Profile Card',
+        description: 'A static React application focused on component composition, layout, and reusable UI structure. A responsive personal business card styled using Tailwind CSS for ease.',
+        source: cardWebsite,
+        technologies: ['ReactJS', 'HTML', 'Tailwind'],
+        livePreview: 'https://plata-card.netlify.app/',
+        code: 'https://github.com/Jivan-Plata/personal-profile-card',
     }
 ];
 
@@ -42,8 +50,9 @@ function Projects() {
                         <img src={project.source} className="h-40 w-full object-cover object-center" />
 
                         {/* Text Content */}
-                        <div className="flex flex-col items-center text-center p-3">
-                            <h3 className="p-2 m-1 text-lg font-bold">{project.name}</h3>
+                        <div className="flex flex-col items-center justify-between text-center p-4">
+                            
+                            <h3 className="p-2 text-lg font-bold">{project.name}</h3>
 
                             {/* Technologies Used */}
                             <div className="flex flex-wrap justify-center gap-2 text-[0.6rem] text-secondary mb-5">

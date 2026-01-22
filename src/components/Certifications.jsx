@@ -11,9 +11,12 @@ function Certifications() {
         {source: sololearn, origin: "SoloLearn", title: "Introduction to Python", date: "November 2024", link: "https://www.sololearn.com/certificates/CC-VSUPAJMG"}
     ]
     
-    const allCertifications = certifications.map(current => (
+    const allCertifications = certifications.map((current,index) => (
         /* Cards */
-        <div className = "flex flex-col justify-center items-center">
+        <div 
+        key = {index}
+        className = "flex flex-col justify-center items-center"
+        >
             
             {/* Image Container */}
             <a href = {current.link} target="_blank">
