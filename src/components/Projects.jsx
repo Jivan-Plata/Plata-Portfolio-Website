@@ -2,6 +2,7 @@ import arcanePage from '../assets/arcanePage.png'
 import portfolioPage from '../assets/portfolioPage.png'
 import git from '../assets/GitHub.png'
 import cardWebsite from '../assets/card-website.png'
+import tenziesPage from '../assets/tenzies-page.png'
 
 const projects = [
     {
@@ -19,6 +20,15 @@ const projects = [
         technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
         livePreview: '#',
         code: 'https://github.com/Jivan-Plata/Plata-Portfolio-Website',
+    },
+
+    {
+        name: 'Tenzies Game',
+        description: 'An interactive dice game using React, implementing dynamic state management, selective dice locking, and win condition detection with reusable components and clean state update patterns.',
+        source: tenziesPage,
+        technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
+        livePreview: 'https://plata-tenzies.netlify.app/',
+        code: 'https://github.com/Jivan-Plata/Plata-tenzies-game',
     },
 
     {
