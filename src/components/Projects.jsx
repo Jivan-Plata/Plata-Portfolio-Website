@@ -3,16 +3,27 @@ import portfolioPage from '../assets/portfolioPage.png'
 import git from '../assets/GitHub.png'
 import cardWebsite from '../assets/card-website.png'
 import tenziesPage from '../assets/tenzies-page.png'
+import chefClaudePage from '../assets/chefclaude-page.png'
 
 const projects = [
     {
         name: 'Arcane Beauty Lounge',
-        description: 'A promotional website created using HTML, CSS and JS. Implemented responsive layouts based on Figma designs (services, branches, products, contacts, etc.). Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
+        description: 'A promotional website created for a business client using HTML, CSS and JS. Implemented multiple pages with responsive layouts based on Figma designs. Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
         livePreview: 'https://arcanebeautylounge.netlify.app/',
         code: 'https://github.com/Jivan-Plata/arcane-beauty-lounge-demo',
     },
+    
+    {
+        name: 'Chef Claude AI',
+        description: 'Engineered a responsive React application that generates custom recipes from user-inputted ingredients via the Hugging Face Inference API (Qwen-2.5); implemented Netlify Serverless Functions to secure API credentials',
+        source: chefClaudePage,
+        technologies: ['AI', 'Hugging Face API', 'Netlify Serverless Functions', 'ReactJS'],
+        livePreview: 'https://plata-chef-claude.netlify.app/',
+        code: 'https://github.com/Jivan-Plata/Plata-chef-claude-app',
+    },
+
     {
         name: 'Website Portfolio',
         description: 'This website you are currently viewing. A responsive personal portfolio built with React and Tailwind CSS. Features smooth scrolling, interactive animations, and clean UI to showcase skills, projects, and experience.',
@@ -24,7 +35,7 @@ const projects = [
 
     {
         name: 'Tenzies Game',
-        description: 'An interactive dice game using React, implementing dynamic state management, selective dice locking, and win condition detection with reusable components and clean state update patterns.',
+        description: 'An interactive dice game using React and React hooks, implementing dynamic state management, selective dice locking, and win condition detection with reusable components and clean state update patterns.',
         source: tenziesPage,
         technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
         livePreview: 'https://plata-tenzies.netlify.app/',
