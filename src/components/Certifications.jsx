@@ -5,7 +5,7 @@ import sololearn from "../assets/Sololearn.png"
 function Certifications() {
 
     const certifications = [
-        {source: scrimba, origin: "Scrimba", title: "Learn React", date: "In progress", link: ""},
+        {source: scrimba, origin: "Scrimba", title: "Learn React", date: "February 2026", link: "https://drive.google.com/file/d/1BvfZ4boALf7Mv8vE-hFEFZLLdASWcN0v/view?usp=sharing"},
         {source: scrimba, origin: "Scrimba", title: "Learn JavaScript", date: "September 2025", link: "https://drive.google.com/file/d/1PSIk2hg7r1af4_CE4z92fzkHIaaDWbPf/view?usp=drive_link"},
         {source: cisco, origin: "Cisco Networking Academy", title: "JavaScript Essentials 1", date: "June 2025", link: "https://www.credly.com/badges/5708845b-166f-4df0-8e17-4c7fc3a1938b/public_url"},
         {source: sololearn, origin: "SoloLearn", title: "Introduction to Python", date: "November 2024", link: "https://www.sololearn.com/certificates/CC-VSUPAJMG"}
