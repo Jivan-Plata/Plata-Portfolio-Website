@@ -1,14 +1,14 @@
 import arcanePage from '../assets/arcanePage.png'
 import portfolioPage from '../assets/portfolioPage.png'
 import git from '../assets/GitHub.png'
-import cardWebsite from '../assets/card-website.png'
 import tenziesPage from '../assets/tenzies-page.png'
 import chefClaudePage from '../assets/chefclaude-page.png'
+import platformerLevel from '../assets/platformer-level.png'
 
 const projects = [
     {
         name: 'Arcane Beauty Lounge',
-        description: 'A promotional website created for a business client using HTML, CSS and JS. Implemented multiple pages with responsive layouts based on Figma designs. Worked with other interns using GitHub for version control and was originally deployed via GoDaddy.',
+        description: 'Delivered a fully responsive, 7-page promotional website for a real business client, translating Figma designs into HTML, CSS, and JavaScript. Collaborated in a 3-person Agile team using Git/GitHub, daily standups, and Trello for sprint management',
         source: arcanePage,
         technologies: ['HTML', 'CSS', 'JavaScript'],
         livePreview: 'https://arcanebeautylounge.netlify.app/',
@@ -17,20 +17,11 @@ const projects = [
     
     {
         name: 'Chef Claude AI',
-        description: 'Engineered a responsive React application that generates custom recipes from user-inputted ingredients via the Hugging Face Inference API (Qwen-2.5); implemented Netlify Serverless Functions to secure API credentials',
+        description: 'React application generating AI-powered recipes from user-inputted ingredients using the Hugging Face API (Qwen 2.5). Secured API credentials server-side with Netlify serverless functions to prevent client-side key exposure.',
         source: chefClaudePage,
         technologies: ['AI', 'Hugging Face API', 'Netlify Serverless Functions', 'ReactJS'],
         livePreview: 'https://plata-chef-claude.netlify.app/',
         code: 'https://github.com/Jivan-Plata/Plata-chef-claude-app',
-    },
-
-    {
-        name: 'Website Portfolio',
-        description: 'This website you are currently viewing. A responsive personal portfolio built with React and Tailwind CSS. Features smooth scrolling, interactive animations, and clean UI to showcase skills, projects, and experience.',
-        source: portfolioPage,
-        technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
-        livePreview: '#',
-        code: 'https://github.com/Jivan-Plata/Plata-Portfolio-Website',
     },
 
     {
@@ -43,13 +34,22 @@ const projects = [
     },
 
     {
-        name: 'Personal Profile Card',
-        description: 'A static React application focused on component composition, layout, and reusable UI structure. A responsive personal business card styled using Tailwind CSS for ease.',
-        source: cardWebsite,
-        technologies: ['ReactJS', 'HTML', 'Tailwind'],
-        livePreview: 'https://plata-card.netlify.app/',
-        code: 'https://github.com/Jivan-Plata/personal-profile-card',
+        name: 'Pages of Revolution',
+        description:  "A 10-month thesis capstone 2D platformer built in Unity and C# with a 3-person team. Based on Jose Rizal's Noli Me Tangere, implementing enemy AI, A* pathfinding, and an edutainment quiz system using OOP principles",
+        source: platformerLevel,
+        technologies: ['Unity', 'C#', 'Game Dev', 'OOP'],
+        livePreview: 'https://chemicalcube325.itch.io/pages-of-revolution-a-noli-me-tangere-quest',
+    },
+
+    {
+        name: 'Website Portfolio',
+        description: 'This website you are currently viewing. A responsive personal portfolio built with React and Tailwind CSS. Features smooth scrolling, interactive animations, and clean UI to showcase skills, projects, and experience.',
+        source: portfolioPage,
+        technologies: ['ReactJS', 'Tailwind', 'JavaScript'],
+        livePreview: '#',
+        code: 'https://github.com/Jivan-Plata/Plata-Portfolio-Website',
     }
+
 ];
 
 function Projects() {
@@ -90,13 +90,16 @@ function Projects() {
 
                             {/* Buttons */}
                             <div className="flex gap-8 mt-5 text-sm items-center">
+
                                 <a href={project.livePreview} target="_blank" rel="noreferrer" className="text-white hover:underline">
                                     Live Preview
                                 </a>
-                                <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white hover:underline">
+
+                                {project.code? <a href={project.code} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white hover:underline">
                                     <img src={git} alt="GitHub" className="h-3 w-3" />
                                     Code
-                                </a>
+                                </a> : null}
+
                             </div>
                         </div>
                     </div>

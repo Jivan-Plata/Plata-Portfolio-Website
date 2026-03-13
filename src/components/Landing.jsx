@@ -68,8 +68,7 @@ function Landing() {
     </h1>
 
         <p className="text-sm md:text-md lg:text-lg leading-relaxed text-slate-300">
-          A junior frontend web-developer, I use my Game Development background to handle complex logic and state management in React applications.
-          I’m a graduate of <span className="text-white font-medium whitespace-nowrap">De La Salle University – Dasmariñas</span> with a passion for web development.
+          Frontend Developer with a BS in Computer Science from De La Salle University – Dasmariñas and a DOST-SEI national merit scholarship. My Game Development background gives me stronger foundations in application logic and state management than most frontend developers from purely web-focused programs — and I bring that directly into building responsive, production-ready React applications.
         </p>
 
         <div className="flex sm:flex-row pt-2 gap-4 sm:pt-4 justify-center md:justify-start flex-wrap">
