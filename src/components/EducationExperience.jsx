@@ -1,5 +1,6 @@
 import dlsudLogo from '../assets/DLSU-D.png';
 import servscale from '../assets/Servscale.png'
+import accenture from '../assets/accenture.png'
 
 function EducationExperience() {
   return (
@@ -10,6 +11,8 @@ function EducationExperience() {
       </h2>
 
       <div className="grid gap-8 md:grid-cols-2 items-start ">
+
+        {/* Experience */}
 
         {/* Servscale */}
         <div className="bg-cards border border-[#2c3e50] rounded-xl shadow-lg p-6 flex gap-5 items-start self-start ">
@@ -37,6 +40,35 @@ function EducationExperience() {
             
           </div>
         </div>
+
+        {/* Accenture */}
+        <div className="bg-cards border border-[#2c3e50] rounded-xl shadow-lg p-6 flex gap-5 items-start self-start ">
+
+          <div className="w-20 h-20 bg-[#1A2E3A] rounded-lg flex items-center justify-center shrink-0">
+            <img src={accenture} alt="Company Logo" className="w-12 h-12 object-contain" />
+          </div>
+
+          <div className="text-textcolor space-y-1 ">
+
+            <p className="text-xs uppercase tracking-widest text-slate-300"> Experience </p>
+            <h3 className="text-lg font-bold text-white"> Accenture Academy - Full Stack Development Trainee </h3>
+            <p className="text-sm text-slate-400"> March 2026 - Present </p>
+            <p className="text-md font-medium text-white"> Accenture </p>
+            
+            <ul className="text-sm text-slate-300 pt-2 leading-relaxed flex flex-col gap-2">
+
+              <li> <span className='text-[#a1f6ff]'> ● </span> Completing a 343-hour full stack training program covering Java, Spring Boot, Hibernate, SQL, and React </li>
+
+              <li> <span className='text-[#a1f6ff]'> ● </span> Preparing for technical assessments including Java fundamentals, microservices, and React development </li>
+
+              <li> <span className='text-[#a1f6ff]'> ● </span> Following structured modules on software engineering practices, REST APIs, and database design </li>
+
+            </ul>
+            
+          </div>
+        </div>
+
+        
 
         {/* Education */}
         <div className="bg-cards border border-[#2c3e50] rounded-xl shadow-lg p-6 flex gap-5 items-start self-start ">
