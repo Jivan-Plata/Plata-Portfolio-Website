@@ -6,24 +6,28 @@ import python from '../assets/Python.png'
 import java from '../assets/Java.png'
 import git from '../assets/GitHub.png'
 import react from '../assets/React.png'
-import netlify from '../assets/Netlify.png'
 import unity from '../assets/Unity.png'
 import tailwind from '../assets/Tailwind.png'
 import blender from '../assets/Blender.png'
+import spring from '../assets/spring.png'
+import springBoot from '../assets/spring-boot.png'
+
 
 const techStack = [
 
   {name: 'HTML', source: html5},
   {name: 'CSS', source: css},
   {name: 'JavaScript', source: javascript},
-  {name: 'Python', source: python},
-  {name: 'Java', source: java},
-  {name: 'Git', source: git},
   {name: 'React', source: react},
   {name: 'Tailwind', source: tailwind},
-  {name: 'Netlify', source: netlify},
+  {name: 'Java', source: java},
+  {name: 'Spring', source: spring},
+  {name: 'Spring Boot', source: springBoot},
+  {name: 'Git', source: git},
   {name: 'Unity', source: unity},
+  {name: 'Python', source: python},
   {name: 'Blender', source: blender}
+
 
 ];
 
